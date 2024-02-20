@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Profesional</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/hamburguer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -27,7 +27,9 @@
     </header>
 
     <div class="hero-container">
-        <div class="hero-image"></div>
+        <video autoplay loop muted>
+            <source src="/video/brown_coal.mp4" type="video/mp4">
+        </video>
         <div class="hero-text">
             <h1>Energía Nuclear</h1>
         </div>
@@ -72,6 +74,45 @@
         </div>
     </div>
 
+    <div class="container-carousel">
+        <div class="carruseles" id="slider">
+            <section class="slider-section">
+                <img src="img/1.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/2.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/3.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/4.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/5.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/6.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/7.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/8.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/9.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/10.jpg">
+            </section>
+        </div>
+        <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+        <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+    </div>
+
+    <button onclick="darkMode()">SWITCH MODE</button>
+
     <audio controls autoplay>
         <source src="/audio/La Roja Baila.mp3" type="audio/mpeg">
     </audio>
@@ -83,7 +124,9 @@
         <img src="/img/footer-icon.png" alt="Escudo España">
     </footer>
 
+    <script src="/scripts/darkMode.js"></script>
     <script src="/scripts/hamburguer.js"></script>
+    <script src="/scripts/carousel.js"></script>
 </body>
 
 </html>

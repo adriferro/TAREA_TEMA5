@@ -1,8 +1,3 @@
-/**
- * @author Adrián Fernández Rodríguez
- * @github https://github.com/adriferro/TAREA_TEMA5.git
- */
-
 const formulario = document.getElementById("formulario")
 const nombre = document.getElementById("nombre")
 const apellidos = document.getElementById("apellidos")

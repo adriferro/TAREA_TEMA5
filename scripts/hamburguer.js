@@ -1,8 +1,3 @@
-/**
- * @author Adrián Fernández Rodríguez
- * @github https://github.com/adriferro/TAREA_TEMA5.git
- */
-
 var menu = document.querySelector('.hamburger');
 
 function toggleMenu (event) {
